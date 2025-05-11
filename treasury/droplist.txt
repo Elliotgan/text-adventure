@@ -1,0 +1,7 @@
+Goblin	20	Weapon	Goblin's Sword	20	Consumable	Healing Potion	20	Armor	Chainmail	10	Armor	Leather Armor	30	Nothing
+Giant Spider	60	Consumable	Spider Web	20	Consumable	Healing Potion	20	Nothing
+Slime	60	Consumable	Magic Grease	20	Consumable	Healing Potion	20	Nothing
+Ratling	30	Armor	Leather Armor	20	Armor	Standard Plate Armor	20	Consumable	Healing Potion	20	Consumable	Magic Grease	10	Nothing
+Troll	40	Weapon	Mace	10	Consumable	Healing Potion	10	Consumable	Magic Grease	20	Armor	Standard Plate Armor	20	Nothing
+Tree Demon	60	Weapon	Magical Wooden Sword	20	Armor	Standard Plate Armor	20	Nothing
+Hellhound	100	Nothing

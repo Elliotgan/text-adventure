@@ -1,0 +1,3 @@
+Goblin's Sword	10	40	The sword used by the goblin; it has a strange smell, and you can't expect goblins to be very clean
+Mace	30	300	A very heavy mace, with densely embedded iron nails on it, but the arrangement is not very neat
+Magical Wooden Sword	50	900	Unusually sharp wooden sword; why would a wooden sword be harder and sharper than an iron one?

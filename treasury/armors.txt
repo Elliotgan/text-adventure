@@ -1,0 +1,3 @@
+Chainmail	15	40	A very standard chain mail that can effectively resist slashing attacks from general light weapons, but it's best to run away when encountering weapons like great swords
+Leather Armor	20	300	Armor made of leather; thanks to the toughness of the leather, the protective performance of this armor exceeds expectations
+Standard Plate Armor	40	900	A standard plate armor, meeting all your expectations for a piece of standard armor
