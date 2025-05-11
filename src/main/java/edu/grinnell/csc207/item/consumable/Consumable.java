@@ -60,4 +60,15 @@ public class Consumable extends Dropable {
                 + "Effect: " + this.effect + "\n"
                 + "Price: " + this.price);
     }
+
+    /**
+     * Test if two consumables are equal based on their names
+     */
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof Consumable)) {
+            return false;
+        }
+        return (((Consumable) obj).getName().toLowerCase().equals(this.name.toLowerCase()));
+    }
 }
