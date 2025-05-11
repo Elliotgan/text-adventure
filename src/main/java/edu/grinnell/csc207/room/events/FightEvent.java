@@ -98,6 +98,7 @@ public class FightEvent extends Events {
         while (enemy.isAlive() && player.isAlive()) {
             if (!stopRound) {
                 System.out.println("");
+                roundCounter.nextRound();
                 System.out.println(roundCounter.toString());
                 System.out.println("Your turn");
                 System.out.println("You have " + player.getCurrentHp() + " HP, "
@@ -151,7 +152,6 @@ public class FightEvent extends Events {
                 enemy.enemyRound(player, item, stunflag, defenseflag);
                 defenseflag = stunflag = false;
             }
-            roundCounter.nextRound();
 
         }
         if (!player.isAlive()) {
