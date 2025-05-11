@@ -273,11 +273,9 @@ public class Item {
     public void switchWeapon(String weaponName) {
         Weapon current = currentWeapon;
         Weapon newWeapon = getWeapon(weaponName);
-        System.out.println("You want to equip " + newWeapon.getName());
         removeWeapon(newWeapon);
         addWeapon(current);
         currentWeapon = newWeapon;
-        System.out.println("current weapon: " + currentWeapon.getName());
     }
 
     /**
@@ -288,10 +286,8 @@ public class Item {
     public void switchArmor(String armorName) {
         Armor current = currentArmor;
         Armor newArmor = getArmor(armorName);
-        System.out.println("You want to equip " + newArmor.getName());
         removeArmor(newArmor);
         addArmor(current);
         currentArmor = newArmor;
-        System.out.println("current armor: " + currentArmor.getName());
     }
 }
